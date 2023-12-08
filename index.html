@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>insulation Test</title>
+    <link rel="stylesheet" href="./assets/styles/insulation-test.scss">
+    <link rel="stylesheet" href="./assets/styles/insulation-test.css">
+    <script type="module" src="./assets/js/events.js"></script>
+</head>
+
+<body>
+    <div class="insulation-test-npu">
+        <div class="item--1hf">
+          <div class="content-gxD">
+            <div class="menu-davis-Prd">
+              <img class="davislogo-gaq" src="./assets/davislogo-U8V.png" />
+              <div class="menu-list-bxh">
+                <div class="menu-text-Kdo">
+                  <img class="mes-icon-Cb7" src="./assets/mes-icon-n4V.png" />
+                  <a href="" class="mes-uVX">MES</a>
+                </div>
+                <div class="menu-text-Bxq">
+                  <img class="prod-icon-1-gub" src="./assets/prod-icon-1-oMf.png" />
+                  <a href="" class="mes-2Cm">Production</a>
+                </div>
+                <div class="menu-text-A45">
+                  <img class="wms-icon-Vs3" src="./assets/wms-icon-b6V.png" />
+                  <a href="" class="mes-Epd">Warehouse</a>
+                </div>
+                <div class="menu-text-wU9">
+                  <img class="setting-icon-tPP" src="./assets/setting-icon-dk1.png" />
+                  <a href="" class="mes-2Vb">Setting</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="container py-5">
+
+        <form action="" id="form">
+            <div class="d-flex flex-column gap-5">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3 g-lg-5 mb-5">
+                    <div>
+                        <label for="project-no" class="form-label">Project No</label>
+                        <select id="project-no" class="form-select">
+                            <option value="" selected disabled>Select Project No</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="project-type" class="form-label">Type</label>
+                        <select id="project-type" class="form-select" disabled>
+                            <option value="" selected disabled>Select Type</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="project-sequence" class="form-label">Sequence</label>
+                        <select id="project-sequence" class="form-select" disabled>
+                            <option value="" selected disabled>Select Sequence</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="project-modal-no" class="form-label">Modal No</label>
+                        <select id="project-modal-no" class="form-select" disabled>
+                            <option value="" selected disabled>Select Modal No</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="project-lot-no" class="form-label">Lot No</label>
+                        <select id="project-lot-no" class="form-select" disabled>
+                            <option value="" selected disabled>Select Lot No</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mb-5">
+                    <div class="nav nav-tabs row row-cols-2 row-cols-lg-4 g-3 g-lg-5 border-0 d-none" id="tabs-selector"
+                        role="tablist">
+
+                        <button type="button" role="tab" class="nav-link active" href="#" id="leakageCurrent"
+                            aria-selected="true" data-bs-toggle="tab" data-bs-target="#tab-leakageCurrent">Leakage
+                            Current
+                            (mA)</button>
+
+
+                        <button type="button" role="tab" class="nav-link " href="#" id="pressureTest"
+                            data-bs-toggle="tab" data-bs-target="#tab-pressureTest">Pressure Test
+                            (C)</button>
+
+
+                        <button type="button" role="tab" class="nav-link " href="#" id="insulationTest"
+                            data-bs-toggle="tab" data-bs-target="#tab-insulationTest">Insulation
+                            Test</button>
+
+
+                        <button type="button" role="tab" class="nav-link " href="#" id="visualMechInspection"
+                            data-bs-toggle="tab" data-bs-target="#tab-visualMechInspection">Visual-Mech
+                            Inspection</button>
+
+                    </div>
+                </div>
+                <div class="tab-content mb-5" id="tabContent">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 g-lg-5 tab-pane fade show active"
+                        id="tab-leakageCurrent" role="tabpanel" tabindex="0"></div>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 g-lg-5 tab-pane fade"
+                        id="tab-pressureTest" role="tabpanel" tabindex="0"></div>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 g-lg-5 tab-pane fade"
+                        id="tab-insulationTest" role="tabpanel" tabindex="0"></div>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 g-lg-5 tab-pane fade"
+                        id="tab-visualMechInspection" role="tabpanel" tabindex="0"></div>
+                </div>
+
+                <table class="table table-bordered" id="selectedBusways">
+                    <thead>
+
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+
+
+
+    <div class="modal fade" id="buswayModal" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Busways</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <th>
+                                <input class="form-check-input" type="checkbox" value="" id="allBuswayOptionsCheck">
+                            </th>
+                            <th scope="col">Busway No</th>
+                            <th scope="col">Description</th>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button id="addNewBuswayBtn" disabled type="button" class="btn btn-info">Add Yours</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

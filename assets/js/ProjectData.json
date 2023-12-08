@@ -1,0 +1,33 @@
+{
+  "project-no": ["D13-013", "D14-014"],
+  "project-type": ["Compact", "Sandwitch", "Hybrid"],
+  "project-sequence": ["ERYBN", "ABCDE", "Others"],
+  "project-modal-no": ["SB-630", "SB-631"],
+  "project-lot-no": ["Lot 1", "Lot 2"],
+  "project-name": "Chubb Jalan Sultan Ismail",
+  "customer": "Lotus Power Corporation (M) Sdn Bhd",
+  "order-form-no": "LOC/0276/21",
+  "voltage": 415,
+  "manufacturing-code": "",
+  "system-configuration": "3P4W+50%E / IP54",
+  "rating": "630mA",
+  "date": "2023-05-15",
+  "busways": [
+    {
+      "no": "C1",
+      "description": "XYZ"
+    },
+    {
+      "no": "C2",
+      "description": "UVW"
+    },
+    {
+      "no": "C3",
+      "description": "RST"
+    },
+    {
+      "no": "C4",
+      "description": "PQR"
+    }
+  ]
+}

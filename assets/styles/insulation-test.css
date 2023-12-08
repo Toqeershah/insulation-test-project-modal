@@ -1,0 +1,153 @@
+
+html {
+	font-size:72.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 116.4rem;
+  background-color: azure;
+}.insulation-test-npu {
+  width: 100%;
+  height: 5.1rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #eef0f4;
+}
+.insulation-test-npu .item--1hf {
+  width: 100%;
+  height: 100%;
+}
+.insulation-test-npu .item--1hf .content-gxD {
+  box-sizing: border-box;
+  padding-bottom: 11.2rem;
+  width: 145.5rem;
+  height: 137.1rem;
+  background-color: #eef0f4;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd {
+  margin-bottom: 1.9rem;
+  box-sizing: border-box;
+  padding: 0.8rem 5.6rem;
+  width: 144rem;
+  height: 5.3rem;
+  display: flex;
+  column-gap: 31.35rem;
+  align-items: center;
+  background-color: #00bf95;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .davislogo-gaq {
+  width: 7.6rem;
+  height: 3.7rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .menu-list-bxh {
+  margin: 0.95rem 0;
+  height: calc(100% - 1.9rem);
+  display: flex;
+  column-gap: 4rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .menu-list-bxh .menu-text-Kdo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .menu-list-bxh .menu-text-Kdo .mes-icon-Cb7 {
+  margin-right: 0.4rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .menu-list-bxh .menu-text-Kdo .mes-uVX {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  color: rgba(0, 0, 0, 0.9399999976);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .menu-list-bxh .menu-text-Bxq {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .menu-list-bxh .menu-text-Bxq .prod-icon-1-gub {
+  margin-right: 0.4rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .menu-list-bxh .menu-text-Bxq .mes-2Cm {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  color: rgba(0, 0, 0, 0.9399999976);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .menu-list-bxh .menu-text-A45 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .menu-list-bxh .menu-text-A45 .wms-icon-Vs3 {
+  margin-right: 0.4rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .menu-list-bxh .menu-text-A45 .mes-Epd {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  color: rgba(0, 0, 0, 0.9399999976);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .menu-list-bxh .menu-text-wU9 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .menu-list-bxh .menu-text-wU9 .setting-icon-tPP {
+  margin-right: 0.4rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.insulation-test-npu .item--1hf .content-gxD .menu-davis-Prd .menu-list-bxh .menu-text-wU9 .mes-2Vb {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  color: rgba(0, 0, 0, 0.9399999976);
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
